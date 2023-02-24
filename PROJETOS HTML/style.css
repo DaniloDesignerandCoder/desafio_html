@@ -1,0 +1,165 @@
+/* Estilo para o corpo do site */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+  color: #273746;
+}
+
+/* Estilo para o cabeçalho */
+header {
+  background-color: #40E0D0;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  height: 50px;
+  margin-right: 10px;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav li {
+  margin-left: 20px;
+}
+
+nav li:first-child {
+  margin-left: 0;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Estilo para a seção hero */
+.hero {
+  background-image: url('hero-image.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-content {
+  text-align: center;
+  color: #fff;
+}
+
+.hero h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #fff;
+  color: #273746;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #273746;
+  color: #fff;
+}
+
+/* Estilo para a seção de produtos em destaque */
+.featured {
+  padding: 50px;
+}
+
+.featured h2 {
+  font-size: 36px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.product {
+  margin-bottom: 50px;
+}
+
+.product a {
+  display: block;
+  text-decoration: none;
+  color: #273746;
+}
+
+.product img {
+  width: 100%;
+  height: auto;
+}
+
+.product h3 {
+  font-size: 24px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.product p {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* Estilo para a seção "Sobre a nossa loja" */
+.about {
+  background-color: #f2f2f2;
+  padding: 50px;
+}
+
+.about h2 {
+  font-size: 36px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.about p {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+/* Estilo para a seção "Entre em contato conosco" */
+.contact {
+  padding: 50px;
+}
+
+.contact h2 {
+  font-size: 36px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+label {
+  display: block;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  display: block;
+  width: 100%;
+  padding: 10px;
+ 
